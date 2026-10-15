@@ -1,0 +1,14 @@
+{
+  "id": "05-pricing",
+  "title": "A plan for your next project",
+  "description": "Start small, collaborate confidently, and scale when you are ready.",
+  "accent": "#0f766e",
+  "button_label": "Switch to annual",
+  "success_text": "Annual billing selected.",
+  "instructions": "Match the pricing cards and spacing in the reference. Switching to annual sets #pro-price to $190 and #billing to per year; switching again restores $19 and per month, and status Monthly billing selected. Keep all feature lists visible.",
+  "editable_files": [
+    "index.html",
+    "styles.css",
+    "app.js"
+  ]
+}

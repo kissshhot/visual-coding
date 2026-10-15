@@ -1,0 +1,21 @@
+{
+  "id": "04-settings",
+  "title": "Profile preferences",
+  "description": "Update your public profile and keep your workspace personal.",
+  "accent": "#2563eb",
+  "button_label": "Save preferences",
+  "success_text": "Preferences saved for Ada.",
+  "instructions": "Match the two-column form and profile summary. Save must use the actual display-name input #display-name and update #profile-name. It must also work when the name is Grace. Preserve the editable email field.",
+  "editable_files": [
+    "index.html",
+    "styles.css",
+    "app.js"
+  ],
+  "setup_actions": [
+    {
+      "action": "fill",
+      "selector": "#display-name",
+      "text": "Ada"
+    }
+  ]
+}

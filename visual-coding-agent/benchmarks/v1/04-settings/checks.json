@@ -1,0 +1,39 @@
+{
+  "family": "form",
+  "assertions": [
+    {
+      "selector": "#profile-name",
+      "text": "Ada"
+    }
+  ],
+  "followup": [
+    {
+      "action": "fill",
+      "selector": "#display-name",
+      "text": "Grace"
+    },
+    {
+      "action": "click",
+      "selector": "#action"
+    }
+  ],
+  "followup_assertions": [
+    {
+      "selector": "#profile-name",
+      "text": "Grace"
+    },
+    {
+      "selector": "#status",
+      "text": "Preferences saved for Grace."
+    }
+  ],
+  "regions": [
+    {
+      "name": "main",
+      "x": 48,
+      "y": 110,
+      "width": 1104,
+      "height": 650
+    }
+  ]
+}

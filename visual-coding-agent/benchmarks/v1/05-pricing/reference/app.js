@@ -1,0 +1,1 @@
+let annual=false;document.querySelector('#action').onclick=()=>{annual=!annual;document.querySelector('#pro-price').textContent=annual?'$190':'$19';document.querySelector('#billing').textContent=annual?'per year':'per month';document.querySelector('#status').textContent=annual?'Annual billing selected.':'Monthly billing selected.';};

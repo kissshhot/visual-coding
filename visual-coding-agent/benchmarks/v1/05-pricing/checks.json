@@ -1,0 +1,42 @@
+{
+  "family": "stateful",
+  "assertions": [
+    {
+      "selector": "#pro-price",
+      "text": "$190"
+    },
+    {
+      "selector": "#billing",
+      "text": "per year"
+    }
+  ],
+  "followup": [
+    {
+      "action": "click",
+      "selector": "#action"
+    }
+  ],
+  "followup_assertions": [
+    {
+      "selector": "#pro-price",
+      "text": "$19"
+    },
+    {
+      "selector": "#billing",
+      "text": "per month"
+    },
+    {
+      "selector": "#status",
+      "text": "Monthly billing selected."
+    }
+  ],
+  "regions": [
+    {
+      "name": "main",
+      "x": 48,
+      "y": 110,
+      "width": 1104,
+      "height": 650
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "family": "layout",
+  "assertions": [
+    {
+      "selector": "#report-count",
+      "text": "1"
+    }
+  ],
+  "followup": [
+    {
+      "action": "click",
+      "selector": "#action"
+    }
+  ],
+  "followup_assertions": [
+    {
+      "selector": "#report-count",
+      "text": "2"
+    }
+  ],
+  "regions": [
+    {
+      "name": "main",
+      "x": 48,
+      "y": 110,
+      "width": 1104,
+      "height": 650
+    }
+  ]
+}

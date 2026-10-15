@@ -1,0 +1,8 @@
+{
+  "id": "visual-feedback-card",
+  "title": "Build. Observe. Refine.",
+  "description": "A small working example of an agent creating a page, observing its rendered state, and improving the code with evidence.",
+  "accent": "#0f766e",
+  "button_label": "Verify the interaction",
+  "success_text": "Interaction verified — the loop is complete."
+}

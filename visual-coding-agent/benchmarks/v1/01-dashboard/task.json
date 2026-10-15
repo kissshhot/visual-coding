@@ -1,0 +1,14 @@
+{
+  "id": "01-dashboard",
+  "title": "Workspace overview",
+  "description": "Track active projects and team progress in one place.",
+  "accent": "#2563eb",
+  "button_label": "Create report",
+  "success_text": "Report ready.",
+  "instructions": "Match the sidebar, three metric cards, and activity list in the reference. Create report increments #report-count on every click.",
+  "editable_files": [
+    "index.html",
+    "styles.css",
+    "app.js"
+  ]
+}

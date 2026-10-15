@@ -1,0 +1,30 @@
+{
+  "name": "@visual-coding/agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "start": "node dist/cli.js",
+    "demo": "node dist/cli.js --task examples/card.json",
+    "demo:vision": "node dist/examples/vision-demo.js",
+    "check:vision": "node dist/examples/vision-smoke.js",
+    "benchmark": "node dist/evaluation/benchmark-cli.js",
+    "benchmark:validate": "node dist/evaluation/benchmark-cli.js --mode validate",
+    "check:integration": "tsx --test tests/integration.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "2.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "tsx": "4.23.15",
+    "@types/node": "^24"
+  }
+}

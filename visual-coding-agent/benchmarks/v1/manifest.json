@@ -1,0 +1,21 @@
+{
+  "suite": "visual-coding-fixed-v1",
+  "tasks": [
+    "01-dashboard",
+    "02-storefront",
+    "03-editorial",
+    "04-settings",
+    "05-pricing"
+  ],
+  "viewport": {
+    "width": 1200,
+    "height": 800
+  },
+  "threshold": 8,
+  "max_changed_ratio": 0.01,
+  "max_mae": 2,
+  "max_steps": 50,
+  "max_repairs": 3,
+  "timeout_ms": 600000,
+  "description": "Five controlled static repair tasks. Initial and reference source are frozen fixtures. Compare idle and post-click states separately. No model access to reference source."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "03-editorial",
+  "title": "Designing for clarity",
+  "description": "A practical guide to creating interfaces that make the next step obvious.",
+  "accent": "#7c3aed",
+  "button_label": "Save article",
+  "success_text": "Bookmark saved.",
+  "instructions": "Match the readable article typography, two-column composition and sidebar. Save article toggles #bookmark-label between Not saved and Saved on successive clicks; the second click sets status Bookmark removed.",
+  "editable_files": [
+    "index.html",
+    "styles.css",
+    "app.js"
+  ]
+}

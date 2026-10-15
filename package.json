@@ -1,0 +1,18 @@
+{
+  "name": "visual-coding",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A multimodal visual coding agent, MCP plugins, and five fixed evaluation tasks.",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "setup": "npm --prefix visual-coding-plugins ci && npm --prefix visual-coding-agent ci",
+    "build": "npm --prefix visual-coding-plugins run build && npm --prefix visual-coding-agent run build",
+    "browser:install": "npm --prefix visual-coding-plugins run browser:install",
+    "test": "npm --prefix visual-coding-plugins test && npm --prefix visual-coding-agent test",
+    "demo": "npm --prefix visual-coding-agent run demo",
+    "demo:vision": "npm --prefix visual-coding-agent run demo:vision",
+    "check:vision": "npm --prefix visual-coding-agent run check:vision",
+    "benchmark": "npm --prefix visual-coding-agent run benchmark",
+    "benchmark:validate": "npm --prefix visual-coding-agent run benchmark:validate"
+  }
+}

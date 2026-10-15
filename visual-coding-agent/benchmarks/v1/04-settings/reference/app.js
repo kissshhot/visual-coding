@@ -1,0 +1,1 @@
+document.querySelector('#action').onclick=()=>{const name=document.querySelector('#display-name').value.trim();document.querySelector('#profile-name').textContent=name;document.querySelector('#status').textContent='Preferences saved for '+name+'.';};

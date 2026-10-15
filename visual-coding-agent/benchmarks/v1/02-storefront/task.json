@@ -1,0 +1,14 @@
+{
+  "id": "02-storefront",
+  "title": "Everyday essentials",
+  "description": "Thoughtful objects for a calmer workspace.",
+  "accent": "#0f766e",
+  "button_label": "Add to bag",
+  "success_text": "Added to your bag.",
+  "instructions": "Match the three product cards, spacing, colors and typography in the reference. Add to bag increments #cart-count each time.",
+  "editable_files": [
+    "index.html",
+    "styles.css",
+    "app.js"
+  ]
+}

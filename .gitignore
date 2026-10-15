@@ -1,0 +1,12 @@
+node_modules/
+dist/
+runs/
+.visual-coding/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+private/
+*.pem
+*.key

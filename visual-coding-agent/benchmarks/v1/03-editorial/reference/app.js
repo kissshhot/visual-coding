@@ -1,0 +1,1 @@
+let saved=false;document.querySelector('#action').onclick=()=>{saved=!saved;document.querySelector('#bookmark-label').textContent=saved?'Saved':'Not saved';document.querySelector('#status').textContent=saved?'Bookmark saved.':'Bookmark removed.'};
